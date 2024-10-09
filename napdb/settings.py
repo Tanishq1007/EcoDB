@@ -94,6 +94,13 @@ DATABASES = {
     }
 }
 
+ALLOWED_HOSTS = [
+    'ecodb.onrender.com',  # Add your Render domain here
+    'localhost',           # Allow localhost for local development
+    '127.0.0.1',          # Allow 127.0.0.1 for local development
+    # Add other domains if necessary
+]
+
 
 
 # Password validation
