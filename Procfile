@@ -1,1 +1,1 @@
-web: gunicorn napdb.wsgi --log-file -
+waitress-serve --port=8000 napdb.wsgi
