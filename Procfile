@@ -1,1 +1,1 @@
-web: waitress-serve --port=$PORT napdb.wsgi
+web: echo "Hello World"
