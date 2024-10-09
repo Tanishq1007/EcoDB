@@ -86,10 +86,10 @@ WSGI_APPLICATION = 'napdb.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'MyProjectDB',
-        'USER': 'MyUser',
-        'PASSWORD': 'Tanishq@@10',
-        'HOST': 'localhost',
+        'NAME': 'ecodb_4sjc',
+        'USER': 'ecodb_4sjc_user',
+        'PASSWORD': 'SLwGpa7KFf2myWurmQ82wbnIn08p75H6',
+        'HOST': 'ecodb.render.com',
         'PORT': '5432',
     }
 }
