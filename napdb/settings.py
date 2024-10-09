@@ -143,4 +143,8 @@ STATIC_URL = 'static/'
 # https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
-CORS_ALLOW_ALL_ORIGINS = True  # Allow all origins (for local development only)
+CORS_ALLOWED_ORIGINS = [
+    'http://localhost:3000',  # If you're testing locally
+    'https://eco-assignment-gamma.vercel.app/',  # Production frontend URL
+]
+  # Allow all origins (for local development only)
