@@ -89,7 +89,7 @@ DATABASES = {
         'NAME': 'ecodb_4sjc',
         'USER': 'ecodb_4sjc_user',
         'PASSWORD': 'SLwGpa7KFf2myWurmQ82wbnIn08p75H6',
-        'HOST': 'ecodb.render.com',
+        'HOST': 'postgresql://ecodb_4sjc_user:SLwGpa7KFf2myWurmQ82wbnIn08p75H6@dpg-cs39dtd6l47c73ecc260-a.oregon-postgres.render.com/ecodb_4sjc',
         'PORT': '5432',
     }
 }
