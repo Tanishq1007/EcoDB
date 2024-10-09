@@ -1,1 +1,1 @@
-web: gunicorn product_management.wsgi --log-file -
+web: gunicorn napdb.wsgi --log-file -
