@@ -1,1 +1,1 @@
-web: waitress-serve --port=$PORT napdb.wsgi:application
+web: gunicorn product_management.wsgi --log-file -
