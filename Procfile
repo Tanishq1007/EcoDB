@@ -1,1 +1,1 @@
-web: echo "Hello World"
+gunicorn napdb.wsgi --log-file -
