@@ -1,1 +1,1 @@
-waitress-serve --port=8000 napdb.wsgi
+web: waitress-serve --port=$PORT napdb.wsgi
